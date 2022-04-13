@@ -1,0 +1,50 @@
+ /* || Fonts */
+
+ @font-face {
+     font-family: Norse-Bold;
+     src: url(assets/Norse-Bold.otf);
+ }
+
+ /* || General styles */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+/* || Sidebar */
+
+.sidebar {
+    width: 35vw;
+    height: 100vh;
+    background-image: url(assets/halie-west-green-leaf-plant.jpg);
+    background-size: cover;
+}
+
+#logoText {
+    font-family: Norse-Bold;
+}
+
+/* || Main */
+main {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup>form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.signup>form>.inputBlock {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
