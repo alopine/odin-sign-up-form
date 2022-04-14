@@ -95,11 +95,10 @@ main>* {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 75%
+    width: 80%
 }
 
 .signup>form>.inputBlock {
-    margin: 5% 0;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -117,6 +116,21 @@ main>* {
     height: 2rem;
     border: 1px solid #E5E7EB;
     border-radius: 0.25rem;
+    padding-left: 5%;
+}
+
+input.error {
+    border: 1px solid #D67B7B;
+}
+
+input:focus {
+    border: 1px solid #6985D5;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem #D6D6D6;
+}
+
+#passwordError {
+    font-size: 0.75rem;
+    color: #D67B7B;
 }
 
 .bottomText {
