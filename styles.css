@@ -87,6 +87,8 @@ main>* {
     width: 100%;
     padding: 2.5% 5%;
     background-color: #FFFFFF;
+    box-shadow: 0.1rem 0.2rem 0.2rem 0.1rem #DDDEDE;
+
 }
 
 .signup>form {
@@ -130,6 +132,11 @@ main>* {
     border: none;
     border-radius: 0.25rem;
     font-size: 1.1rem;
+    box-shadow: 0.1rem 0.2rem 0.2rem 0.1rem #DDDEDE;
+}
+
+.bottomText>p {
+    padding-top: 2.5%;
 }
 
 .bottomText>p>a {
